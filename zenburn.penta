@@ -54,6 +54,10 @@ hi -a URL                                       text-decoration:none; color:#9EC
 hi -a URL:hover                                 text-decoration:underline; cursor: pointer;
 hi -a LineNr                                    color:#9fafaf; background-color:#262626;
 
+hi -a NoScriptAllowed                           color: #9ece9e; font-weight:bold;
+hi -a NoScriptBlocked                           color: #808080; font-style: italic;
+hi -a NoScriptTemp                              color: #dfdfdf;
+hi -a NoScriptUntrusted                         color: #e89393; font-style: italic;
 " REPL
 hi -l Normal REPL
 hi -a REPL                                      font-family:"Lucida Console","Bitstream Vera Sans Mono",Monaco,Consolas,"Courier New",serif;white-space:pre;line-height:1.4em;margin:1em 0;padding: 0.5em 0 0.3em 0;
