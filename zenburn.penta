@@ -35,7 +35,7 @@ hi -l Question CmdQuestion
 hi -a Tag                                       color:#e89393; font-weight:bold;
 hi -a CmdLine                                   font-weight:normal; padding:0 3px;
 hi -a NonText                                   color:#404040; font-weight:bold;
-hi Normal                                       color:#dcdccc !important; background-color:#3F3F3F !important; font-size:9pt;
+hi Normal                                       color:#dcdccc !important; background-color:#3F3F3F !important; font-size:11pt;
 hi -l Normal CmdNormal
 hi -l Normal StatusNormal
 hi -l Normal Indicator                          width:4px;
@@ -68,7 +68,7 @@ hi -l Normal REPL
 hi -a REPL                                      font-family:"Lucida Console","Bitstream Vera Sans Mono",Monaco,Consolas,"Courier New",serif;white-space:pre;line-height:1.4em;margin:1em 0;padding: 0.5em 0 0.3em 0;
 hi -a REPL-P                                    font-size:92%;margin:0.2em 0;border-bottom:1px dashed #999;
 hi -a REPL-R
-hi -a REPL-E                                    
+hi -a REPL-E
 
 " plugin styles
 hi -a BufTabSelected                            background-color:#000;color:#FFF;
